@@ -4,7 +4,7 @@ import './App.css';
 import {Home} from './pages/home';
 import {About} from './pages/about';
 import {Navbar} from './components/navbar';
-import TemporaryDrawer from './components/PersistentDrawerLef'
+import TemporaryDrawer from './components/PersistentDrawerLef';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <TemporaryDrawer />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About}/>
+          <Route path="/react-test" exact component={Home} />
+          <Route path="/react-test/about" component={About}/>
         </Switch>
       </BrowserRouter>
       </div>

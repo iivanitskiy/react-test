@@ -48,10 +48,10 @@ export default function TemporaryDrawer() {
       <List style={{margin: 20}}>
         <ul className="nav-list">
           <li className="nav-link">
-            <NavLink exact to="/" className="nav-text"><HomeIcon/>&nbsp;&nbsp;Главная</NavLink>
+            <NavLink exact to="/react-test/" className="nav-text"><HomeIcon/>&nbsp;&nbsp;Главная</NavLink>
           </li>
           <li className="nav-link">
-            <NavLink to="/about" className="nav-text"><InfoIcon />&nbsp;&nbsp;Информация</NavLink>
+            <NavLink to="/react-test/about" className="nav-text"><InfoIcon />&nbsp;&nbsp;Информация</NavLink>
           </li>
         </ul>
       </List>

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import './navbar.css'
+import './navbar.css';
 import Button from '@material-ui/core/Button';
-import NumberApi from '../api/numberApi'
+import NumberApi from '../api/numberApi';
 
 export const Navbar = () => {
   const [info, setInfo] = useState(false)

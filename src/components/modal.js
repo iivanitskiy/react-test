@@ -1,6 +1,6 @@
-import React from 'react'
-import './modal.css'
-import {useModal} from './card'
+import React from 'react';
+import './modal.css';
+import {useModal} from './card';
 import ClearIcon from '@material-ui/icons/Clear';
 
 export function Modal({users})  {

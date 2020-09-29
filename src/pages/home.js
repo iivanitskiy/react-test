@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
 import {Card} from '../components/card';
 import {UsersApi} from '../api/usersApi';
-import './home.css'
+import './home.css';
 
 export const Home = () => {
   const [users, setUsers] = useState([])
