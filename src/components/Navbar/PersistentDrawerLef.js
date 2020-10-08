@@ -6,9 +6,10 @@ import Drawer from '@material-ui/core/Drawer';
 import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
+import TodosIcon from '@material-ui/icons/TodaySharp';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
-import '../components/navbar.css';
+import './navbar.css';
 
 const useStyles = makeStyles({
   list: {
@@ -49,6 +50,9 @@ export default function TemporaryDrawer() {
         <ul className="nav-list">
           <li className="nav-link">
             <NavLink exact to="/react-test/" className="nav-text"><HomeIcon/>&nbsp;&nbsp;Главная</NavLink>
+          </li>
+          <li className="nav-link">
+            <NavLink to="/react-test/todos" className="nav-text"><TodosIcon />&nbsp;&nbsp;Todos</NavLink>
           </li>
           <li className="nav-link">
             <NavLink to="/react-test/about" className="nav-text"><InfoIcon />&nbsp;&nbsp;Информация</NavLink>

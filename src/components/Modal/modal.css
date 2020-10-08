@@ -10,9 +10,13 @@
   padding-top: 17rem;
 }
 
+.modal.open {
+  display: flex;
+}
+
 .modal-body {
   padding: 2rem;
-  width: 500px;
+  width: auto;
   border-radius: 5px;
   background: white;
   height: fit-content;

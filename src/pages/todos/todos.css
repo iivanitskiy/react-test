@@ -1,0 +1,19 @@
+.todos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  padding: 20px 50px;
+}
+
+.form {
+  align-self: flex-start;
+  width: 100%;
+
+}
+
+.form-input {
+  padding-left: 10px;
+  height: 30px;
+  width: 99%;
+}
